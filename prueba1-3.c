@@ -109,10 +109,14 @@ int largoL(struct nodo*L){
 int binario(struct nodo *L,int buscar){
 	int mitadN = 0, mitad = 0;
 	struct nodo *aux = L;
+	mitad = largoL(L)/2;
+	for(int x=0;x<mitad;x++){
+		if(X == mitad - 1){
+			mitadN = aux->dato;
+		}
+		aux = aux->sgte;
+	}
 	
-	{
-		/* data */
-	};
 	
 }
 
