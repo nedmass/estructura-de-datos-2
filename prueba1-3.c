@@ -96,7 +96,15 @@ int recuperar(int p, struct nodo *L){
 	return -1;
 }
 
-
+int binario(Struct nodo*L,int buscar){
+	int mitadN = 0, mitad = 0;
+	struct nodo *aux = L;
+	
+	{
+		/* data */
+	};
+	
+}
 
 
 
