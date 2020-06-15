@@ -116,7 +116,12 @@ int binario(struct nodo *L,int buscar){
 		}
 		aux = aux->sgte;
 	}
-	
+	if (buscar == mitadN){
+	    	printf("se encontro el dato \n");
+	}
+	else if (buscar > mitadN){
+			binario(aux->sgte,buscar);			
+	}
 	
 }
 
